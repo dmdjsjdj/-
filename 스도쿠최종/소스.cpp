@@ -895,7 +895,7 @@ int main(void)
 			break;                  // 9로 하면 마지막 칸까지 입력받은 후의 맵이 아닌 입력받기 전의 맵을 출력하고 클리어하기 때문이다. (한 칸이 미완성인 맵이 출력되는 것을 방지)
 	} while (1);
 
-	setColor(DARK_RED);
+	setColor(YELLOW);
 	printf("\n\n\n                                --------------- 스도쿠를 클리어하셨습니다! --------------\n\n"); //최종 클리어 및 종료
 	setColor(WHITE);
 }
